@@ -1,0 +1,65 @@
+#trip-details{
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    gap: 3%;
+    padding: 2%;
+}
+
+#trip-details-menu{
+    grid-row-start:1;
+    grid-row-end:3;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(255, 254, 250);
+    padding: 4% 4%;
+    font-size: 1.2rem;
+    
+}
+#trip-details-menu img{
+  
+    
+}
+
+#trip-details-menu li{
+    
+}
+
+
+#members{
+    grid-column-start: 3;
+    grid-row-start:2;
+    grid-row-end:3;
+    background-color: rgb(255, 254, 250);
+}
+
+#itinery{
+    grid-column-start:2; 
+   
+    grid-row-start:1;
+    grid-row-end:2;
+    background-color: rgb(255, 254, 250);
+}
+
+#results{
+    grid-row-start:2;
+    grid-row-end:3;
+    padding: 2%;
+    background-color: rgb(255, 254, 250);
+}
+
+#results div{
+    display: grid;
+    grid-template-columns: 10% 20% auto 20%;
+    gap: 2%;
+    background-color: rgb(255, 254, 250);
+}
+
+.border{
+    border: 0px solid black;
+    border-radius: 5px;
+   background-color: var(--light-beige);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}

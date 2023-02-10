@@ -1,0 +1,43 @@
+
+#view-trips{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+#trip-gallery{
+    display: grid;
+    width: 80%;
+    height: 70%;
+    grid-template-columns:repeat(auto-fit, minmax(180px,1fr));
+    gap:3%;
+}
+
+
+
+.trip-cover-img, #trip-gallery a{
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  color: var(--green);
+background-color: white;
+
+
+}
+
+#trip-gallery a{
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+align-items: flex-end;
+border:10px solid white;
+border-radius: 5px;
+text-decoration: none;
+}
+
+.trip-cover-img{
+  height:20%;
+  width:100%;
+  
+border-radius: 0 0 5px 5px;
+}

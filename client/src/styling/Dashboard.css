@@ -1,0 +1,51 @@
+#dashboard{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:8%;
+}
+
+#dashboard h2{
+    font-size: 4rem;
+}
+
+#dashboard-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10%
+    
+   
+    
+}
+
+#dashboard h3{
+    text-align: center;
+}
+
+.link-container{
+    width: 280px;
+}
+
+.link-image{
+    height:280px;
+    width: 280px;
+    border-radius: 50%;
+}
+
+.create{
+    background-image: url('../../public/create-trip.jpeg');
+    background-size: cover;
+}
+
+.join{
+    background-image: url('../../public/join-trip.jpeg');
+    background-size:cover;
+}
+
+.view{
+    background-image: url('../../public/view-trip.jpeg');
+    background-size:cover;
+}
