@@ -9,7 +9,7 @@ import JoinTrip from "../../pages/JoinTrip";
 import ViewTrips from "../../pages/ViewTrips";
 import TripDetails from "../../pages/TripDetails";
 
-
+//test 
 function App() {
   return (
     <div className="App">
