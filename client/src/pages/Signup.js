@@ -9,8 +9,11 @@ export default function Signup(){
           <img alt=''></img>
           <img id="arrow-img" alt='' src={Arrow}></img>
           <p className="motto">Group travel without the hassle!</p>
-          <button>Sign Up</button>
+          <div className='signup-btn'>
+             <button>Sign Up</button>
           <p>Already have an account? Log In here!</p>
+          </div>
+         
         </div>
         <div className="signup-image">
           <LoginButton />

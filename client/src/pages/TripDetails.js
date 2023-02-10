@@ -1,4 +1,5 @@
 import '.././styling/TripDetails.css'
+import Dropdown from '../components/Dropdown/Dropdown';
 
 export default function TripDetails() {
   return (
@@ -20,23 +21,8 @@ export default function TripDetails() {
         </form>
       </div>
       <div className="border">
-        <h3>Add Suggestions</h3>
-        <form>
-          <label>
-            Category
-            <select>
-              <option>Date</option>
-              <option>Budget</option>
-              <option>Accomodation</option>
-              <option>Excursion</option>
-              <option>Food</option>
-            </select>
-          </label>
-          <label>
-            Option
-            <input></input>
-          </label>
-        </form>
+        <Dropdown/>
+
       </div>
       <div id="members" className="border">
         <h3>Members</h3>
