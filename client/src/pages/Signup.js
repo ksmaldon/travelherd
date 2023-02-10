@@ -6,8 +6,8 @@ export default function Signup(){
       <section id="signup">
         <div className="signup-text">
           <p>Feeling decision fatigue?</p>
-          <img></img>
-          <img id="arrow-img" src={Arrow}></img>
+          <img alt=''></img>
+          <img id="arrow-img" alt='' src={Arrow}></img>
           <p className="motto">Group travel without the hassle!</p>
           <button>Sign Up</button>
           <p>Already have an account? Log In here!</p>
