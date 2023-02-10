@@ -3,9 +3,13 @@ import "../../styling/Nav.css";
 import Logo from "./logo.png";
 import LoginButton from "../../components/LoginButton/LoginButton";
 import LogoutButton from "../../components/LogoutButton/LogoutButton";
+import { useAuth0 } from "@auth0/auth0-react";
 
 export default function Nav() {
+  const { isAuthenticated } = useAuth0();
+
   return (
+    isAuthenticated && (
     <nav>
       <div id="logo">
         <img src={Logo} alt=""></img>
@@ -23,5 +27,8 @@ export default function Nav() {
         </li>
       </ul>
     </nav>
+    )
+
+
   );
 }

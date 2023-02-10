@@ -1,0 +1,65 @@
+#signup{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.signup-image, .signup-text{
+    grid-row: 1/2;
+} 
+
+.signup-image{
+    background-image: url(../../public/login-img.jpeg);
+    background-size: cover;
+   grid-column: 3/-1;
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-end;
+   
+}
+.signup-image button{
+    text-align: end;
+}
+
+.signup-text{
+     grid-column: 1/4;
+     z-index: 2;
+     display: grid;
+     grid-template-columns: 66% 1fr;
+     grid-template-rows: repeat(6,16.6%) ;
+      align-items:center ;
+      justify-items: center;
+}
+
+.signup-text p:first-child{
+   font-size: 2.5rem;
+}
+
+.signup-text p:last-child{
+   grid-row-start: 6;
+   align-self: start;
+   
+
+}
+
+#arrow-img{
+    grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 3;
+}
+
+.motto{
+     grid-row-start: 4;
+     align-self:end;
+     font-size: 2.5rem;
+}
+
+.signup-text button{
+   grid-row-start: 5; 
+   width:fit-content;
+   align-self: end;
+   background-color: var(--yellow);
+   border-style: none;
+   padding: 2% 4%;
+
+}
+

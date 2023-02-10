@@ -34,6 +34,10 @@ html, body{
 section{
   height: calc(100vh - 15%);
 }
+
+#signup {
+  height: 100%;
+}
 /*
   Typographic tweaks!
   4. Add accessible line-height
